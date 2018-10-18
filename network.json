@@ -34,6 +34,16 @@
             ],
             "source": "merge.R",
             "target": "area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.murder",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "murder.png"
         }
     ],
     "nodes": [
@@ -61,6 +71,6 @@
             "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-18 04:02:43",
+    "updated_at": "2018-10-18 04:02:56",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
