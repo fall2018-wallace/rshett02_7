@@ -33,5 +33,5 @@ map.murder
 
 latlon <- geocode(source = "dsk","nyc,new york,ny")
 latlon
-map.murder<-map.murder+ xlim(-84,-54)+ ylim(30,50)
-map.murder
+map.murder1<-map.murder+ xlim(-84,-54)+ ylim(30,50)
+map.murder1
