@@ -17,6 +17,7 @@
         {
             "ports": [
                 {
+                    "input": "a",
                     "output": "cleancensus",
                     "type": "r_obj"
                 }
@@ -39,6 +40,6 @@
             "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-18 03:53:02",
+    "updated_at": "2018-10-18 03:54:23",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
