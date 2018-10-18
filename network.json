@@ -62,11 +62,6 @@
         },
         {
             "assigned_to": "rshett02",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "rshett02",
             "desc": "",
             "name": "merge.R",
             "task_status": "in progress"
@@ -79,8 +74,14 @@
         },
         {
             "name": "zoom.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 04:04:35",
+    "updated_at": "2018-10-18 04:04:47",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
