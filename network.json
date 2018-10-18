@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.area",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "area.png"
         }
     ],
     "nodes": [
@@ -51,6 +61,6 @@
             "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-18 03:58:46",
+    "updated_at": "2018-10-18 04:02:43",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
