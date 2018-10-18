@@ -80,8 +80,11 @@
             "desc": "",
             "name": "merge.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map.murder1.png"
         }
     ],
-    "updated_at": "2018-10-18 04:06:21",
+    "updated_at": "2018-10-18 04:34:13",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
