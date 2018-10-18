@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleancensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-18 03:52:04",
+    "updated_at": "2018-10-18 03:53:02",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
