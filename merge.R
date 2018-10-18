@@ -6,7 +6,7 @@ b <- (USArrests) #USAressts dataset is loaded in a local variable
 mergedf <- merge(a, b, by.x = "stateName", by.y = 0) #a merged dataset is created 
 
 
-stateArea <- state.area
+stateArea <- state.area  #storing state.area ,state.center and statee.name 
 statecenter <- state.center
 stateName <- state.name
 newframe <- data.frame(stateArea,statecenter,stateName)
