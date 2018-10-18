@@ -54,6 +54,16 @@
             ],
             "source": "clean.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.murder1",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "map.murder1.png"
         }
     ],
     "nodes": [
@@ -85,6 +95,6 @@
             "name": "map.murder1.png"
         }
     ],
-    "updated_at": "2018-10-18 04:34:13",
+    "updated_at": "2018-10-18 04:34:27",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
