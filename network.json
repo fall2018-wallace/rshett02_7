@@ -48,7 +48,7 @@
             "ports": [
                 {
                     "input": "a",
-                    "output": "CleanCensus",
+                    "output": "cleanCensus",
                     "type": "r_obj"
                 }
             ],
@@ -81,6 +81,6 @@
             "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-18 04:04:08",
+    "updated_at": "2018-10-18 04:04:35",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
