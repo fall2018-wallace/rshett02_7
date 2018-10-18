@@ -17,17 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "a",
-                    "output": "cleancensus",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "merge.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "map.area",
                     "type": "png"
                 }
@@ -54,6 +43,17 @@
             ],
             "source": "merge.R",
             "target": "zoom.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "a",
+                    "output": "CleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -81,6 +81,6 @@
             "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-18 04:03:13",
+    "updated_at": "2018-10-18 04:04:08",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
