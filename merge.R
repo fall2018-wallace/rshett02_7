@@ -1,5 +1,6 @@
 
 library("ggplot")
+library("ggmap")
 #2)	Copy the USArrests dataset into a local variable (similar to HW 2)
 b <- (USArrests) #USAressts dataset is loaded in a local variable
 mergedf <- merge(a, b, by.x = "stateName", by.y = 0) #a merged dataset is created 
