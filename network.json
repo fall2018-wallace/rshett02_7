@@ -36,10 +36,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rshett02",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "area.png"
         }
     ],
-    "updated_at": "2018-10-18 03:54:48",
+    "updated_at": "2018-10-18 03:58:08",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
