@@ -61,12 +61,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "merge.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "area.png"
         },
         {
@@ -80,8 +74,14 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 04:04:47",
+    "updated_at": "2018-10-18 04:06:21",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
