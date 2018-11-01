@@ -1,0 +1,100 @@
+{
+    "collaborators": [
+        "rshett02"
+    ],
+    "created_at": "2018-10-18 03:42:14",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.area",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.murder",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.murder1",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "zoom.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "a",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map.murder1",
+                    "type": "png"
+                }
+            ],
+            "source": "merge.R",
+            "target": "map.murder1.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "area.png"
+        },
+        {
+            "name": "murder.png"
+        },
+        {
+            "name": "zoom.png"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map.murder1.png"
+        }
+    ],
+    "updated_at": "2018-10-18 04:34:27",
+    "url": "https://github.com/fall2018-wallace/rshett02_7"
+}
