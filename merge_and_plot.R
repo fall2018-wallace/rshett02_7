@@ -39,5 +39,5 @@ map.murder
 #6)	Repeat step C, but only show the states in the north east
 latlon <- geocode(source = "dsk","nyc,new york,ny") #latitue and longitude of nyc is obtained
 latlon
-map.murder<-map.murder+ xlim(-84,-54)+ ylim(30,50) #using xlim and ylim we have zoomed in 
-map.murder
+map.murder1<-map.murder+ xlim(-84,-54)+ ylim(30,50) #using xlim and ylim we have zoomed in 
+map.murder1
