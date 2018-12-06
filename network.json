@@ -22,7 +22,7 @@
                     "type": "png"
                 }
             ],
-            "source": "merge.R",
+            "source": "merge_and_plot.R",
             "target": "area.png"
         },
         {
@@ -32,7 +32,7 @@
                     "type": "png"
                 }
             ],
-            "source": "merge.R",
+            "source": "merge_and_plot.R",
             "target": "murder.png"
         },
         {
@@ -42,7 +42,7 @@
                     "type": "png"
                 }
             ],
-            "source": "merge.R",
+            "source": "merge_and_plot.R",
             "target": "zoom.png"
         },
         {
@@ -54,7 +54,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "merge.R"
+            "target": "merge_and_plot.R"
         },
         {
             "ports": [
@@ -63,7 +63,7 @@
                     "type": "png"
                 }
             ],
-            "source": "merge.R",
+            "source": "merge_and_plot.R",
             "target": "map.murder1.png"
         }
     ],
@@ -87,15 +87,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "rshett02",
-            "desc": "",
-            "name": "merge.R",
-            "task_status": "in progress"
+            "name": "map.murder1.png"
         },
         {
-            "name": "map.murder1.png"
+            "assigned_to": "rshett02",
+            "desc": "",
+            "name": "merge_and_plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-04 22:46:13",
+    "updated_at": "2018-12-06 05:27:24",
     "url": "https://github.com/fall2018-wallace/rshett02_7"
 }
